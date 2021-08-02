@@ -2,7 +2,7 @@
 ### Top Skills
 <img src="https://img.shields.io/badge/Lang-Python-blue" height="20" alt="Python" >
 <img src="https://img.shields.io/badge/Lang-SQL-blue" height="20" alt="SQL" >
-<img src="https://img.shields.io/badge/Package-Pandas-#add8e6" height="20" alt="SQL" >
+<img src="https://img.shields.io/badge/Package-Pandas-add8e6" height="20" alt="SQL" >
 ## Summary
 
 This repo includes snippets of code I've created over the past 2 years. The major of this code is made to handle complex automations for running a smart home and 
