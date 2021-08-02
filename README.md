@@ -1,5 +1,6 @@
 # Resume
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Test ALT" >
+### Top Skills
+<img src="https://img.shields.io/badge/lang-python-blue" height="20" alt="Python" >
 ## Summary
 
 This repo includes snippets of code I've created over the past 2 years. The major of this code is made to handle complex automations for running a smart home and 
