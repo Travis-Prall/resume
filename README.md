@@ -7,21 +7,20 @@ analyzing data gathered from said home. The full repository for my home automati
 
 ## Languages Used
  + [Python](https://docs.python.org/ "Python Docs")
- + SQL
- + YAML
- + Javascript
- + Groovy
- + C
- + C++
+ + [SQL](https://en.wikipedia.org/wiki/SQL "SQL")
+ + [YAML](https://en.wikipedia.org/wiki/YAML "YAML")  
+ + [Javascript](https://devdocs.io/javascript/ "Javascript") 
+ + [Groovy](http://www.groovy-lang.org/ "Groovy") 
+ + [C](https://devdocs.io/c/ "C") 
+ + [C++](https://devdocs.io/cpp/ "C++") 
 
 ## Technology Used
- + Docker (Docker, Docker-compose, Portainer)
- + MQTT
- + Zwave
- + Selenium
- + TensorFlow
- + SciPy
- + Cython
+ + [Docker](https://www.docker.com/ "Docker")
+ + [MQTT](https://mqtt.org/ "MQTT")
+ + [Zwave](https://en.wikipedia.org/wiki/Z-Wave "Zwave")
+ + [SciPy](https://www.scipy.org/ "SciPy")
+ + [TensorFlow](https://www.tensorflow.org/ "Tensorflow")
+ + [Cython](https://docs.cython.org/en/latest/ "Cython")
  + Linux
 
 
