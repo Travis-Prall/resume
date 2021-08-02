@@ -1,4 +1,4 @@
-# resume
+# Resume
 ## Summary
 
 This section includes snippets of code I've created over the past 2 years. The major of this code is made to handle complex automations for running a smart home and 
