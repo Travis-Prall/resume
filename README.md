@@ -3,7 +3,7 @@
 
 This section includes snippets of code I've created over the past 2 years. The major of this code is made to handle complex automations for running a smart home and anylazing data gathered from said home. The full repository for my home automation includes over 156 running applications and is kept private for security and privacy reasons (for example my entire security system for my house is written in python.)
 
-### Systems
+##### Systems
 + System for managing, controlling, and tracking environmental systems like the air conditining.
 + System for tracking tasks that need to be done.
 + Complex system for tracking movement of personel from room to room.
@@ -24,3 +24,25 @@ I also use InfluxDB. InfluxDB is written in GO and is great for storing large am
 + MongoDB
 + PostgreSQL
 + InfluxDB
+
+
+
+##Highlights
+
+###Task Tracking System
+
+This system tracks tasks and anaylzes the preformance of those preforming the task. To the best of my knowledge this system is completely unique and shows high levels and inovation and creativity.
+
+####Task Tracking Front End
+![Task Front End](https://github.com/Travis-Prall/resume/blob/main/pics/chore_front_end.png "Task Front End")
+####Task Tracking Data
+![Chore Data Graph](https://github.com/Travis-Prall/resume/blob/main/pics/chore_data.png "Chore Data")
+####Task List
+![Task List](https://github.com/Travis-Prall/resume/blob/main/pics/chore_list.png "Task List")
+
+
+###Air Conditioning Data
+
+This graph is data webscraped from APS. The data is stored in PostgresDB and then displayed in Grafana. This graph allows for instant visualation of the effecientcy of my programs running my AC units.
+
+![Grafana](https://github.com/Travis-Prall/resume/blob/main/pics/grafana_ac_data.png "Grafana AC Graph")
