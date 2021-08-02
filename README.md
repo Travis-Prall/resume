@@ -1,8 +1,30 @@
 # Resume
 ## Summary
 
-This section includes snippets of code I've created over the past 2 years. The major of this code is made to handle complex automations for running a smart home and 
+This repo includes snippets of code I've created over the past 2 years. The major of this code is made to handle complex automations for running a smart home and 
 analyzing data gathered from said home. The full repository for my home automation includes over 156 running applications and is kept private for security and privacy reasons (for example my entire security system for my house is written in python.)
+
+
+## Languages Used
+ + [Python](https://docs.python.org/ "Python Docs")
+ + SQL
+ + YAML
+ + Javascript
+ + Groovy
+ + C
+ + C++
+
+## Technology Used
+ + Docker (Docker, Docker-compose, Portainer)
+ + MQTT
+ + Zwave
+ + Selenium
+ + TensorFlow
+ + SciPy
+ + Cython
+ + Linux
+
+
 
 ##### Systems
 + System for managing, controlling, and tracking environmental systems like the air conditioning.
