@@ -30,14 +30,6 @@ analyzing data gathered from said home. The full repository for my home automati
 
 
 
-##### Systems
-+ System for managing, controlling, and tracking environmental systems like the air conditioning.
-+ System for tracking tasks that need to be done.
-+ Complex system for tracking movement of personnel from room to room.
-+ Notification system across various platforms
-+ Lighting effects and automation 
-
-
 ## Databases
 
 First databases used was a combination of [MariaDB](https://mariadb.org/ "MariaDB") and [yaml files](https://pypi.org/project/PyYAML/ "YAML Package"). MariaDB had many limitations,  and I almost gave up on SQL databases in favor of nonSQL databases like [MongoDB](https://www.mongodb.com/ "MongoDB") which is incredibly easy to use and works well with most python coding styles. I then found [PostgreSQL](https://www.postgresql.org/ "PostgreSQL"). PostgreSQL has many advanced features which overcome the normal limitations of other SQL databases. For example, Postgres easily handles the storing of [arrays](https://www.postgresql.org/docs/13/arrays.html "Array Data Type") and [json](https://www.postgresql.org/docs/13/datatype-json.html "JSON Data Type"). While table joins are great for organizing data, I've come across several use cases for storing shorter more complex arrays as a cleaner and more pythonic way to analyze data.
@@ -55,6 +47,21 @@ I also use [InfluxDB](https://www.influxdata.com/ "InfluxDB"). InfluxDB is writt
 
 
 ## Highlights
+
+### Systems Created
+
++ System for managing, controlling, and tracking environmental systems like the air conditioning. Monitors temperature, humidity, energy consumption, sun movement, luminance, and ultraviolet. Adjust temperature based on occupancy and anticipated need. 
+
++ Security System that uses detection of wifi and bluetooth, motion, and visual machine learning from [TensorFlow](https://www.tensorflow.org/).
+
++ System for tracking tasks that need to be done with an economic feedback point system. Analyzes and attempts to motivate occupants.
+
++ Complex system for tracking movement of personnel from room to room. Adjusts lights and notifications as needed.
+
++ Notification system across various platforms including area announcement, email, http, and mobile.
+
++ Lighting effects and automation.
+
 
 ### Task Tracking System
 
