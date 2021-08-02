@@ -7,18 +7,21 @@ analyzing data gathered from said home. The full repository for my home automati
 
 ## Languages Used
  + [Python](https://docs.python.org/ "Python Docs")
- + [SQL](https://en.wikipedia.org/wiki/SQL "SQL")
- + [YAML](https://en.wikipedia.org/wiki/YAML "YAML")  
- + [Javascript](https://devdocs.io/javascript/ "Javascript") 
+ + [SQL](https://en.wikipedia.org/wiki/SQL "SQL wiki")
+ + [YAML](https://en.wikipedia.org/wiki/YAML "YAML wiki")  
+ + [Javascript](https://devdocs.io/javascript/ "Javascript Devdocs") 
+ + [HTML](https://en.wikipedia.org/wiki/HTML "HTML wiki")
+ + [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "CSS wiki")
  + [Groovy](http://www.groovy-lang.org/ "Groovy") 
- + [C](https://devdocs.io/c/ "C") 
- + [C++](https://devdocs.io/cpp/ "C++") 
+ + [C](https://devdocs.io/c/ "C Devdocs") 
+ + [C++](https://devdocs.io/cpp/ "C++ Devdocs") 
 
 ## Technology Used
  + [Docker](https://www.docker.com/ "Docker")
  + [MQTT](https://mqtt.org/ "MQTT")
  + [Zwave](https://en.wikipedia.org/wiki/Z-Wave "Zwave")
- + [SciPy](https://www.scipy.org/ "SciPy")
+ + [SciPy](https://www.scipy.org/ "SciPy Pack")
+ + [Selenium](https://www.selenium.dev/ "Selenium Docs")
  + [TensorFlow](https://www.tensorflow.org/ "Tensorflow")
  + [Cython](https://docs.cython.org/en/latest/ "Cython")
  + Linux
@@ -35,17 +38,17 @@ analyzing data gathered from said home. The full repository for my home automati
 
 ## Databases
 
-First database used was SQLight. I then upgraded to MariaDB and using yaml. MariaDB had many limitations,  and I almost gave up on SQL databases in favor of nonSQL databases like MongeDB which is incredibly easy to use and works well with most python coding styles. I then found PostgreSQL. PostgreSQL has many advanced features which overcome the normal limitations of other SQL databases. For example, Postgres easily handles the storing of arrays and json. While table joins are great for organizing data, I've come across several use cases for storing shorter more complex arrays as a cleaner and more pythonic way to analyze data.
+First databases used was a combination of [MariaDB](https://mariadb.org/ "MariaDB") and [yaml files](https://pypi.org/project/PyYAML/ "YAML Package"). MariaDB had many limitations,  and I almost gave up on SQL databases in favor of nonSQL databases like [MongoDB](https://www.mongodb.com/ "MongoDB") which is incredibly easy to use and works well with most python coding styles. I then found [PostgreSQL](https://www.postgresql.org/ "PostgreSQL"). PostgreSQL has many advanced features which overcome the normal limitations of other SQL databases. For example, Postgres easily handles the storing of [arrays](https://www.postgresql.org/docs/13/arrays.html "Array Data Type") and [json](https://www.postgresql.org/docs/13/datatype-json.html "JSON Data Type"). While table joins are great for organizing data, I've come across several use cases for storing shorter more complex arrays as a cleaner and more pythonic way to analyze data.
 
-I also use InfluxDB. InfluxDB is written in GO and is great for storing large amounts of time series data for long term use. Combined with systems like Grafana it can be an excellent way to easily visualize data. I use InfluxDB and Grafana mostly for monitoring continues changes in data as it happens. For indebt analyzing of that data I still prefer the Scipy pack.
+I also use [InfluxDB](https://www.influxdata.com/ "InfluxDB"). InfluxDB is written in [GO](https://golang.org/) and is great for storing large amounts of time series data for long term use. Combined with systems like [Grafana](https://grafana.com/) it can be an excellent way to easily visualize data. I use InfluxDB and Grafana for monitoring continues changes in data as it happens. For indebt analyzing of that data I still prefer the [SciPy](https://www.scipy.org/ "SciPy Pack") pack.
 
 ### Databases used
-+ SQLight
-+ MySQL
-+ MariaDB
-+ MongoDB
-+ PostgreSQL
-+ InfluxDB
++ [SQlight](https://sqlite.org/index.html "SQlight")
++ [MySQL](https://www.mysql.com/ "MySQL")
++ [MariaDB](https://mariadb.org/ "MariaDB")
++ [MongoDB](https://www.mongodb.com/ "MongoDB")
++ [PostgreSQL](https://www.postgresql.org/ "PostgreSQL")
++ [InfluxDB](https://www.influxdata.com/ "InfluxDB")
 
 
 
