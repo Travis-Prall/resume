@@ -66,7 +66,7 @@ I also use [InfluxDB](https://www.influxdata.com/ "InfluxDB"). InfluxDB is writt
 ### Task Tracking System
 
 
-This system tracks tasks and analyzes the performance of those preforming the task. To the best of my knowledge this system is completely unique and shows high levels and innovation and creativity.
+This system tracks tasks and analyzes the performance of those preforming the task. To the best of my knowledge this system is completely unique and shows high levels of innovation and creativity.
 
 
 
