@@ -19,6 +19,7 @@ analyzing data gathered from said home. The full repository for my home automati
  + [C++](https://devdocs.io/cpp/ "C++ Devdocs") 
 
 ## Technology Used
+ + [Django](https://www.djangoproject.com/ "Django")
  + [Docker](https://www.docker.com/ "Docker")
  + [MQTT](https://mqtt.org/ "MQTT")
  + [Zwave](https://en.wikipedia.org/wiki/Z-Wave "Zwave")
