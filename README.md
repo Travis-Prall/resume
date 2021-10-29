@@ -1,6 +1,14 @@
 # Resume
 ### Top Skills
-<img src="https://img.shields.io/badge/Lang-Python-blue" height="20" alt="Python" > <img src="https://img.shields.io/badge/Lang-SQL-blue" height="20" alt="SQL" > <img src="https://img.shields.io/badge/Package-Pandas-add8e6" height="20" alt="Pandas" > <img src="https://img.shields.io/badge/Package-Numpy-add8e6" height="20" alt="Numpy" >  <img src="https://img.shields.io/badge/Package-Matplotlib-add8e6" height="20" alt="Matplotlib" > <img src="https://img.shields.io/badge/Package-SciPy-add8e6" height="20" alt="SciPy" > <img src="https://img.shields.io/badge/system-Docker-brightgreen" height="20" alt="Docker" > <img src="https://img.shields.io/badge/system-Postgres-brightgreen" height="20" alt="Postgres" > <img src="https://img.shields.io/badge/system-Linux-brightgreen" height="20" alt="Linux" >
+<img src="https://img.shields.io/badge/Lang-Python-blue" height="20" alt="Python" > 
+<img src="https://img.shields.io/badge/Lang-SQL-blue" height="20" alt="SQL" > 
+<img src="https://img.shields.io/badge/Package-Pandas-add8e6" height="20" alt="Pandas" > 
+<img src="https://img.shields.io/badge/Package-Numpy-add8e6" height="20" alt="Numpy" >  
+<img src="https://img.shields.io/badge/Package-Matplotlib-add8e6" height="20" alt="Matplotlib" > 
+<img src="https://img.shields.io/badge/Package-SciPy-add8e6" height="20" alt="SciPy" > 
+<img src="https://img.shields.io/badge/system-Docker-brightgreen" height="20" alt="Docker"> 
+<img src="https://img.shields.io/badge/system-Postgres-brightgreen" height="20" alt="Postgres" > 
+<img src="https://img.shields.io/badge/system-Linux-brightgreen" height="20" alt="Linux" >
 
 ## Demo
 
@@ -79,9 +87,9 @@ This system tracks tasks and analyzes the performance of those preforming the ta
 
 #### Task Tracking Front End
 ![Task Front End](https://github.com/Travis-Prall/resume/blob/main/pics/chore_front_end.png "Task Front End")
-####Task Tracking Data
+#### Task Tracking Data
 ![Chore Data Graph](https://github.com/Travis-Prall/resume/blob/main/pics/chore_data.png "Chore Data")
-####Task List
+#### Task List
 ![Task List](https://github.com/Travis-Prall/resume/blob/main/pics/chore_list.png "Task List")
 
 
