@@ -1,6 +1,6 @@
 import random
 import appdaemon.plugins.hass.hassapi as hass
-import global_lights
+import WorldConst
 
 
 class master_bedroom(hass.Hass):
@@ -11,19 +11,15 @@ class master_bedroom(hass.Hass):
         self.__light = self.args['lightID']
         self._room = self.args['castle']
         self._service = self.args["service"]
-        self.__start_time = int(global_lights.Auroastart_time)
-        self.__end_time = int(global_lights.Auroaend_time)
-        self._highest_degree = int(global_lights.Auroahighest_degree)
-        self._lowest_degree = int(global_lights.Auroalowest_degree)
-        self._color_spread = int(global_lights.Auroacolor_spread)
-        self._brit_high = global_lights.Auroabrit_high
-        self._brit_low = global_lights.Auroabrit_low
-        # Check #
+        self.__start_time = int(WorldConst.Auroastart_time)
+        self.__end_time = int(WorldConst.Auroaend_time)
+        self._highest_degree = int(WorldConst.Auroahighest_degree)
+        self._lowest_degree = int(WorldConst.Auroalowest_degree)
+        self._color_spread = int(WorldConst.Auroacolor_spread)
+        self._brit_high = WorldConst.Auroabrit_high
+        self._brit_low = WorldConst.Auroabrit_low
         self.start()
-        # self.check_room()
-        # Timers #
-        # Actions #
-        self.listen_state(self.lighting, entity=self._room, new='100')
+        self.listen_state(self.lighting, self._room, new='100')
 
 ##########
 # REPORT #
@@ -35,11 +31,11 @@ class master_bedroom(hass.Hass):
             light = self.get_state(self.__light)
             castle = self.get_state(self._room)
         except (TypeError, ValueError):
-            self.log("Unable to get entity", level="ERROR", log='important')
+            self.error("Unable to get entity", level="ERROR")
             return
 
         if None in [light, castle]:
-            self.log("unable to get state", level="ERROR", log='important')
+            self.error("unable to get state", level="ERROR")
             return
         self.log('App is now working', level="DEBUG")
 
@@ -101,7 +97,7 @@ class master_bedroom(hass.Hass):
                      level='DEBUG')
             try:
                 self.cancel_timer(
-                    self.__timer)  #Cancels the current timer if its running
+                    self.__timer)  # Cancels the current timer if its running
                 self.log('__function__: Canceling timer', level='DEBUG')
             except Exception as e:
                 self.log(f'__function__: {e}', level='WARNING')
@@ -127,7 +123,7 @@ class master_bedroom(hass.Hass):
                      level='DEBUG')
             try:
                 self.cancel_timer(
-                    self.__timer)  #Cancels the current timer if its running
+                    self.__timer)  # Cancels the current timer if its running
                 self.log('__function__: Canceling timer', level='DEBUG')
             except Exception as e:
                 self.log(f'__function__: {e}', level='WARNING')
@@ -145,10 +141,6 @@ class master_bedroom(hass.Hass):
         highest = self._highest_degree
         lowest = self._lowest_degree
         change = self._color_spread
-        # diff = highest - lowest
-        # spread = diff - change
-        # hour_diff = start - (end + 24)
-        # tick = spread - hour_diff
         tick = (highest - lowest - change) / (end - start)
         self.log(f"tick = {tick}", level="DEBUG")
         if now_hour <= 12:
@@ -203,6 +195,7 @@ class master_bedroom(hass.Hass):
 # CHANGE SETTINGS #
 ###################
 
+
     def set_light(self):
         self.log('setting light', level='DEBUG')
         tran = self.get_tran()
@@ -218,6 +211,3 @@ class master_bedroom(hass.Hass):
             brightness_pct=bright,
         )
         self.start_cycle(tran)
-        # self.run_in(self.check_light, tran)
-
-
