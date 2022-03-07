@@ -2,10 +2,8 @@ from datetime import datetime as dt
 
 
 class CoffeeOrder:
-    COFFEES = ["regular", "decaf", "latte",
-               "steamer"]  # Class Attribute Constant
-    SIZES = ["small", "medium", "large",
-             "extra large"]  # Class Attribute Constant
+    COFFEES = ["regular", "decaf", "latte", "steamer"]  # Class Attribute Constant
+    SIZES = ["small", "medium", "large", "extra large"]  # Class Attribute Constant
     PRICES = [1.00, 1.75, 2.25, 2.50]  # Class Attribute Constant
     LABEL_WIDTH = 23  # Class Attribute Constant
 

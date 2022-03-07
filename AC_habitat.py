@@ -3,13 +3,6 @@ from typing import Dict, List, Sequence, Optional, Union, Any
 import appdaemon.plugins.hass.hassapi as hass
 from WorldConst import House, GlobalWeatherData
 
-
-
-
-
-
-
-
 class Temperature:
     def __init__(self, Outside: float = DEFAULT_OUTSIDE, Inside: float = DEFAULT_INSIDE, Max: float = DEFAULT_MAX, Min: float = DEFAULT_MIN, Target: float = DEFAULT_TARGET):
         self._Outside: float = Outside
