@@ -2,6 +2,7 @@
 ### Top Skills
 <img src="https://img.shields.io/badge/Lang-Python-blue" height="20" alt="Python" > 
 <img src="https://img.shields.io/badge/Lang-SQL-blue" height="20" alt="SQL" > 
+<img src="https://img.shields.io/badge/Lang-React-blue" height="20" alt="React" > 
 <img src="https://img.shields.io/badge/Package-Django-add8e6" height="20" alt="Django" > 
 <img src="https://img.shields.io/badge/Package-Numpy-add8e6" height="20" alt="Numpy" >  
 <img src="https://img.shields.io/badge/Package-Pandas-add8e6" height="20" alt="Pandas" > 
@@ -16,7 +17,7 @@ Go to [www.travisprall.com](https://www.travisprall.com "My website") to see a l
 
 ## Summary
 
-This repo includes snippets of code I've created over the past 2 years. The major of this code is made to handle complex automations for running a smart home and 
+This repo includes snippets of code I've created over the past 3 years. The major of this code is made to handle complex automations for running a smart home and 
 analyzing data gathered from said home. The full repository for my home automation includes over 156 running applications and is kept private for security and privacy reasons (for example my entire security system for my house is written in python.)
 
 
