@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/Package-Django-add8e6" height="20" alt="Django" > 
 <img src="https://img.shields.io/badge/Package-Numpy-add8e6" height="20" alt="Numpy" >  
 <img src="https://img.shields.io/badge/Package-Pandas-add8e6" height="20" alt="Pandas" > 
-<img src="https://img.shields.io/badge/Package-SciPy-add8e6" height="20" alt="SciPy" > 
+<img src="https://img.shields.io/badge/Package-RestAPI-add8e6" height="20" alt="RestAPI" > 
 <img src="https://img.shields.io/badge/system-Docker-brightgreen" height="20" alt="Docker"> 
 <img src="https://img.shields.io/badge/system-Postgres-brightgreen" height="20" alt="Postgres" > 
 <img src="https://img.shields.io/badge/system-Linux-brightgreen" height="20" alt="Linux" >
