@@ -2,7 +2,7 @@
 ### Top Skills
 <img src="https://img.shields.io/badge/Lang-Python-blue" height="20" alt="Python" > 
 <img src="https://img.shields.io/badge/Lang-SQL-blue" height="20" alt="SQL" > 
-<img src="https://img.shields.io/badge/Lang-React-blue" height="20" alt="React" > 
+<img src="https://img.shields.io/badge/Package-React-add8e6" height="20" alt="React" > 
 <img src="https://img.shields.io/badge/Package-Django-add8e6" height="20" alt="Django" > 
 <img src="https://img.shields.io/badge/Package-Numpy-add8e6" height="20" alt="Numpy" >  
 <img src="https://img.shields.io/badge/Package-Pandas-add8e6" height="20" alt="Pandas" > 
@@ -17,8 +17,7 @@ Go to [www.travisprall.com](https://www.travisprall.com "My website") to see a l
 
 ## Summary
 
-This repo includes snippets of code I've created over the past 3 years. The major of this code is made to handle complex automations for running a smart home and 
-analyzing data gathered from said home. The full repository for my home automation includes over 156 running applications and is kept private for security and privacy reasons (for example my entire security system for my house is written in python.)
+This repo includes snippets of code I've created over the past 4 years.
 
 
 ## Languages Used
@@ -33,31 +32,22 @@ analyzing data gathered from said home. The full repository for my home automati
  + [C++](https://devdocs.io/cpp/ "C++ Devdocs") 
 
 ## Technology Used
+ + [Linux](https://www.linux.org/pages/download/ "Cython")
+ + [Docker](https://www.docker.com/ "Docker")
  + [Django](https://www.djangoproject.com/ "Django")
  + [React](https://reactjs.org/ "React")
- + [Docker](https://www.docker.com/ "Docker")
- + [MQTT](https://mqtt.org/ "MQTT")
- + [Zwave](https://en.wikipedia.org/wiki/Z-Wave "Zwave")
  + [SciPy](https://www.scipy.org/ "SciPy Pack")
- + [Selenium](https://www.selenium.dev/ "Selenium Docs")
- + [TensorFlow](https://www.tensorflow.org/ "Tensorflow")
- + [Cython](https://docs.cython.org/en/latest/ "Cython")
- + Linux
 
 
 
 ## Databases
 
-First databases used was a combination of [MariaDB](https://mariadb.org/ "MariaDB") and [yaml files](https://pypi.org/project/PyYAML/ "YAML Package"). MariaDB had many limitations,  and I almost gave up on SQL databases in favor of nonSQL databases like [MongoDB](https://www.mongodb.com/ "MongoDB") which is incredibly easy to use and works well with most python coding styles. I then found [PostgreSQL](https://www.postgresql.org/ "PostgreSQL"). PostgreSQL has many advanced features which overcome the normal limitations of other SQL databases. For example, Postgres easily handles the storing of [arrays](https://www.postgresql.org/docs/13/arrays.html "Array Data Type") and [json](https://www.postgresql.org/docs/13/datatype-json.html "JSON Data Type"). While table joins are great for organizing data, I've come across several use cases for storing shorter more complex arrays as a cleaner and more pythonic way to analyze data.
-
-I also use [InfluxDB](https://www.influxdata.com/ "InfluxDB"). InfluxDB is written in [GO](https://golang.org/) and is great for storing large amounts of time series data for long term use. Combined with systems like [Grafana](https://grafana.com/) it can be an excellent way to easily visualize data. I use InfluxDB and Grafana for monitoring continues changes in data as it happens. For indebt analyzing of that data I still prefer the [SciPy](https://www.scipy.org/ "SciPy Pack") pack.
-
 ### Databases used
++ [PostgreSQL](https://www.postgresql.org/ "PostgreSQL")
 + [SQlight](https://sqlite.org/index.html "SQlight")
 + [MySQL](https://www.mysql.com/ "MySQL")
 + [MariaDB](https://mariadb.org/ "MariaDB")
 + [MongoDB](https://www.mongodb.com/ "MongoDB")
-+ [PostgreSQL](https://www.postgresql.org/ "PostgreSQL")
 + [InfluxDB](https://www.influxdata.com/ "InfluxDB")
 
 
@@ -74,7 +64,7 @@ I also use [InfluxDB](https://www.influxdata.com/ "InfluxDB"). InfluxDB is writt
 
 + Complex system for tracking movement of personnel from room to room. Adjusts lights and notifications as needed.
 
-+ Notification system across various platforms including area announcement, email, http, and mobile.
++ Notification system across various platforms including area announcement, email, https, and mobile.
 
 + Lighting effects and automation.
 
